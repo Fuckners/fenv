@@ -1,0 +1,38 @@
+{
+  "name": "fenv",
+  "version": "2.0.1",
+  "description": "Package to configure enviroment variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fuckners/genv.git"
+  },
+  "keywords": [
+    "env",
+    "npm",
+    "enviroment",
+    "variables",
+    "conf",
+    "config",
+    "configure",
+    "configenv",
+    "envconfig"
+  ],
+  "author": "Felipe Fuckner Clariano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fuckners/genv/issues"
+  },
+  "homepage": "https://github.com/Fuckners/genv#readme",
+  "dependencies": {
+    "@types/node": "^20.11.6",
+    "dotenv": "^16.4.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
